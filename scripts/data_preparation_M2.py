@@ -25,8 +25,8 @@ def download_answer_files(cloud_url, path_to_data_folder, respondent_index):
 
 # Downloading all the answer files
 path_to_data_folder = '/workspaces/Summative-Group-Programming-Project/data'
-#for i, url in enumerate(urls):
-#    download_answer_files(direct_urls[i], path_to_data_folder, i+1)
+for i, url in enumerate(urls):
+    download_answer_files(direct_urls[i], path_to_data_folder, i+1)
 
 def collate_answer_files(data_folder_path):
     output_file = os.path.join('/workspaces/Summative-Group-Programming-Project/output', 'collated_answers.txt')
