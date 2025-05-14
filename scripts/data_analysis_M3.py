@@ -76,7 +76,7 @@ def visualize_data(collated_answers_path,n):
                 all_answers.append(answers)
         except:
             pass
-        
+
     if n == 1:
         mean = []
         for i in range(100):
@@ -93,18 +93,21 @@ def visualize_data(collated_answers_path,n):
         plt.title("Mean of Answers per Question (Scatter)")
         plt.xlabel("Question Number")
         plt.ylabel("Mean Value")
-        plt.ylim(1, 4)
+        plt.ylim(0.5, 4.5)
+        plt.xticks(range(0, 101, 5))
         plt.grid(True)
         plt.savefig("output/mean_scatter_plot.png") 
         plt.show()
     
     if n ==2: 
+        plt.figure(figsize=(12, 6))
         for j in all_answers:
-            plt.plot(range(1, 101), j, alpha=0.3)
+            plt.plot(range(1, 101), j, alpha=0.1, linewidth=2.0)
         plt.title("Answer Lines of All Respondents")
         plt.xlabel("Question Number")
         plt.ylabel("Answer (1-4)")
-        plt.ylim(1, 4)
+        plt.ylim(0.5, 4.5)
+        plt.xticks(range(0, 101, 5))
         plt.grid(True)
         plt.savefig("output/respondent_lines_plot.png")  
         plt.show()
