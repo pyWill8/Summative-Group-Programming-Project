@@ -96,6 +96,7 @@ def visualize_data(collated_answers_path,n):
         plt.ylim(0.5, 4.5)
         plt.xticks(range(0, 101, 5))
         plt.grid(True)
+        plt.tight_layout()
         plt.savefig("output/mean_scatter_plot.png") 
         plt.show()
     
@@ -103,12 +104,13 @@ def visualize_data(collated_answers_path,n):
         plt.figure(figsize=(12, 6))
         for j in all_answers:
             plt.plot(range(1, 101), j, alpha=0.1, linewidth=2.0)
-        plt.title("Answer Lines of All Respondents")
+        plt.title("Answer Lines of All Respondents (Line)")
         plt.xlabel("Question Number")
         plt.ylabel("Answer (1-4)")
         plt.ylim(0.5, 4.5)
         plt.xticks(range(0, 101, 5))
         plt.grid(True)
+        plt.tight_layout()
         plt.savefig("output/respondent_lines_plot.png")  
         plt.show()
 
