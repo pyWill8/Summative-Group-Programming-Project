@@ -76,7 +76,7 @@ def visualize_data(collated_answers_path,n):
                 all_answers.append(answers)
         except:
             pass
-
+        
     if n == 1:
         mean = []
         for i in range(100):
@@ -108,3 +108,6 @@ def visualize_data(collated_answers_path,n):
         plt.grid(True)
         plt.savefig("output/respondent_lines_plot.png")  
         plt.show()
+
+visualize_data("data", 1)  # Scatter plot of mean values
+visualize_data("data", 2)
