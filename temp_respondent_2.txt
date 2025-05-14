@@ -1,0 +1,8 @@
+4
+[ ] def my_function():
+
+Question 12. Which operator is used for exponentiation in Python?
+[ ] ^
+[ ] %
+[ ] ^^
+[x]

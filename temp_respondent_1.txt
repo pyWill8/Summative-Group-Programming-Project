@@ -1,0 +1,64 @@
+Question 1. What is a program?
+[ ] A set of instructions that tells a computer what to do.
+[ ] A computer virus that infects systems.
+[x] A type of computer hardware.
+[ ] A kind of programming language.
+
+Question 2. What is an algorithm?
+[ ] A hardware component.
+[x] A step-by-step procedure for solving a problem.
+[ ] A new programming language.
+[ ] A method for debugging code.
+
+Question 3. What distinguishes an interpreter from a compiler?
+[ ] An interpreter compiles code into machine language before execution.
+[ ] A compiler executes code line by line without prior compilation.
+[x] An interpreter executes code line by line without compiling it first.
+[ ] There is no difference between an interpreter and a compiler.
+
+Question 4. What is debugging?
+[ ] Adding new features to a program.
+[ ] Compiling the code into machine language.
+[ ] Designing the user interface of a program.
+[x] The process of finding and fixing errors in a program.
+
+Question 5. What is a syntax error in Python?
+[ ] An error in the logical flow of a program.
+[ ] An error that occurs during program execution.
+[ ] An error related to file input/output operations.
+[x] An error caused by incorrect use of Python’s language rules.
+
+Question 6. What is a runtime error in Python?
+[ ] An error detected by the interpreter before the program runs.
+[ ] An error caused by incorrect syntax in the code.
+[x] An error that occurs while a program is running.
+[ ] An error that Python silently ignores during execution.
+
+Question 7. What statement best describes Python as a programming language?
+[ ] Python is a compiled language only.
+[ ] Python is an interpreted, high-level programming language.
+[x] Python is limited to web development tasks.
+[ ] Python does not support object-oriented programming.
+
+Question 8. What is a variable in Python?
+[ ] A name that refers to a value stored in memory.
+[ ] A constant value that cannot change.
+[x] A built-in Python function.
+[ ] A reserved keyword in Python.
+
+Question 9. Which of the following is a valid variable name in Python?
+[x] second_value
+[ ] 2nd_value
+[ ] second-value
+[ ] second value
+
+Question 10. What does the assignment operator ` = ` do in Python?
+[ ] It compares two values for equality.
+[x] It assigns a value to a variable.
+[ ] It declares a function.
+[ ] It returns a value from a function.
+
+Question 11. Which of the following is an expression in Python?
+[ ] if x == 5:
+[ ] for i in range(10):
+[x] 2 + 3
