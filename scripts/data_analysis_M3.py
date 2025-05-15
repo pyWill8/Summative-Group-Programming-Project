@@ -121,3 +121,10 @@ def visualize_data(collated_answers_path,n):
 
 visualize_data("data", 1)  # Scatter plot of mean values
 visualize_data("data", 2)  # Line plot of all respondents
+
+import os
+for filename in os.listdir():
+    if filename.startswith("answers_list_respondent_") and filename.endswith(".txt"):
+        file_path = os.path.join(os.getcwd(), filename)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
